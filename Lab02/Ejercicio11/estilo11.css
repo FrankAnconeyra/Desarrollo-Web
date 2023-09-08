@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia|Roboto&effect=shadow-multiple&display=swap')
+/*@import url('https://fonts.googleapis.com/css?family=Sofia|Roboto&effect=shadow-multiple&display=swap');*/
+
+h1{
+    color: #ef476f;
+    text-allign: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    font-family: 'Sofia', cursive;
+}
+.caja{
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+}
+.caja.serif{
+    background-color: #5a189a;
+}
+.fuente_roboto{
+    /*
+    font-family: 'Roboto'. sans-serif:
+    font-style: normal:
+    font-weight: normal: 
+    font-variant: small-caps:
+    font-size: 20px
+    */
+    /* font: font-style font-variante font-weight *font-size/line-height *font-family;*/
+    font: italic small-caps; bolder 20px Roboto, san-serif;
+}
+.fuente-georgia{
+    font-family: italic;
+    font-style: bold;
+    font weight: bold;
+    font variant: normal;
+    font-size: 1.25em; /*20px/16=2.5em, 16px/16= 1em*/
+}
+.caja.sans-serif{
+    background-color: #00b4d8;
+}
+.fuente-arial{
+    font-family: Arial, Helvetica, san-serif;
+    font-style: oblique;
+    font weight: bolder;
+    font-size: 2vw; /*view width (viewport) Ivw = 1%*/
+}
+.fuente_verdana{
+    font-family: Verdana, Geneva, Tahoma, san-serif;
+    font-weight: 900;
+}
+.caja.monospace{
+    background-color: #f15bb5;
+}
+.fuente_courter{
+    font-family: 'Courter New', Courier, monospace;
+}
+.caja.cursive{
+    background-color: #ff8500;
+}
+.fuente_lucida{
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+
+

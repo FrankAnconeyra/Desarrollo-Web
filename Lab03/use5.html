@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Casa de Cambio</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        #casaDeCambioForm {
+            display: inline-block;
+            text-align: left;
+        }
+
+        #monto {
+            display: block;
+            margin: 0 auto;
+        }
+
+        #cotizar {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>CASA DE CAMBIO</h1>
+
+    <form id="casaDeCambioForm">
+        <div style="text-align: center;">
+            <label for="monedaEnvio">Seleccionar moneda a enviar:</label>
+            <select id="monedaEnvio" name="monedaEnvio">
+                <option value="dolar">Dólar</option>
+                <option value="soles">Soles</option>
+                <option value="euro">Euro</option>
+            </select>
+        </div>
+        <br>
+
+        <label for="monto">Ingrese monto:</label>
+        <input type="number" id="monto" name="monto" placeholder="Monto a cambiar">
+        <br>
+
+        <input type="button" id="cotizar" value="Cotizar">
+    </form>
+
+    <script>
+        document.getElementById("cotizar").addEventListener("click", function () {
+            var monedaEnvio = document.getElementById("monedaEnvio").value;
+            var monto = parseFloat(document.getElementById("monto").value);
+
+            if (!isNaN(monto)) {
+                alert("Total a recibir en " + monedaEnvio + ": " + monto);
+            } else {
+                alert("Ingrese un monto válido.");
+            }
+        });
+    </script>
+</body>
+</html>

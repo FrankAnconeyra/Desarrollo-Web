@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Presentación</title>
+    <link rel="stylesheet" href="estilomi.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Presentación</h1>
+    </header>
+
+    <button id="boton-tema">Modo Oscuro</button>
+
+    <section id="Fotografía">
+        <h2>Fotografía</h2>
+        <img src="C:\Users\USER\Downloads\foto001 (1).jpg" alt="Mi Fotografía">
+    </section>
+
+    <section id="presentacion">
+        <h2>Presentación Personal</h2>
+        <p>Hola, soy Frank Hernan Anconeyra Suyo. Bienvenido a mi página de presentación personal.<br/> En esta página, compartiré información sobre mí y mis intereses.</p>
+    </section>
+
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Me apasiona la programación web y la tecnología en general.<br/>En mi tiempo libre, disfruto de la música y el deporte. También me encanta la música.</p>
+    </section>
+
+    <section id="tecnologias">
+        <h2>Tecnologías y Lenguajes de Programación</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>PYthon</li>
+            <li>Java</li>
+            <li>Sql</li>
+        </ul>
+    </section>
+
+    <section id="formacion">
+        <h2>Formación Profesional</h2>
+        <p>Soy estudiante en Tecsup en la carrera de diseño y desarrollo de Software</p>
+    </section>
+
+    <section id="idiomas">
+        <h2>Idiomas</h2>
+        <ul>
+            <li>Español (nativo)</li>
+            <li>Quechua (intermedio)</li>
+            <li>Inglés (básico)</li>
+        </ul>
+    </section>
+
+    <script>
+    const botonTema = document.getElementById("boton-tema");
+    const body = document.body;
+
+    botonTema.addEventListener("click", () => {
+        if (body.classList.contains("modo-oscuro")) {
+            body.classList.remove("modo-oscuro");
+            botonTema.innerText = "Modo Oscuro";
+        } else {
+            body.classList.add("modo-oscuro");
+            botonTema.innerText = "Modo Claro";
+        }
+    });
+</script>
+
+    </script>
+</body>
+</html>

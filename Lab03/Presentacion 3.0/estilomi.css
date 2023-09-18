@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+#avatar {
+    background-color: #ffc107; 
+}
+
+#presentacion {
+    background-color: #2196F3; 
+    color: #fff; 
+}
+
+#sobre-mi {
+    background-color: #4CAF50; 
+    color: #fff; 
+}
+
+#tecnologias {
+    background-color: #FF5722; 
+    color: #fff; 
+}
+
+#formacion {
+    background-color: #E91E63; 
+    color: #fff; 
+}
+
+#idiomas {
+    background-color: #673AB7; 
+    color: #fff; 
+}
+section h2 {
+    text-decoration: underline;
+}
+
+#tecnologias ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#tecnologias li {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#idiomas ul {
+    display: flex;
+    justify-content: center;
+}
+
+#idiomas li {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+body {
+    background-color: #ffffff; 
+    color: #000000; 
+}
+body {
+    background-color: #000000; 
+    color: #ffffff; 
+}
+
+
